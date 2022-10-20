@@ -1,0 +1,128 @@
+<!-- <button (click)="onConitue()">Afficher les produits</button> background-color: #D49813;-->
+<div class="mb-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-6">
+                <img src="../assets/images/logo.png" height="450px" />
+                <p class="h3 text-center text-secondary" style="color: #D49813;">La librairie en ligne qui défend les
+                    libraires indépendants
+                </p>
+            </div>
+            <div class="col-6">
+                <ngb-carousel #carousel style="height: 550px; width: 500px" class="m-auto mt-4 me-5">
+                    <ng-template ngbSlide>
+                        <img src="../assets/images/prpp.jpg" alt="Img 1" class="img-fluid rounded ms-5"
+                            style="height: 500px; width: 350px; margin-left: 10px" />
+                        <div class="carousel-caption"></div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <img src="../assets/images/unesilonguelettre.jpg" alt="Img 2" class="img-fluid rounded ms-5"
+                            style="height: 500px; width: 350px; margin-left: 10px" />
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <img src="../assets/images/letranger.webp" alt="Img 3" class="img-fluid rounded ms-5"
+                            style="height: 500px; width: 350px; margin-left: 10px" />
+                    </ng-template>
+                </ngb-carousel>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------ begin::heading ---------------->
+<div class="d-flex justify-content-center bg-dark mb-5" style="height:350px; ">
+    <div class="container">
+        <div class="mt-5 align-self-center">
+            <div class="text-white h4" style="width: 350px;">
+                Tous les rayons de E-Library
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <img src="../assets/images/litterature.png" alt="" class="img-fluid rounded anim-img">
+                <p></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="../assets/images/BD.png" alt="" class="img-fluid rounded anim-img">
+                <p></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="../assets/images/jeunesse.png" alt="" class="img-fluid rounded anim-img">
+                <p></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+</div>
+<!-- end::heading -->
+<!-- bigin::best-seller -->
+<div class="container-fluid">
+    <div class="container mb-5" style="width: 400px;">
+        <p class="text-dark h4">Notre selection de best-seller
+        </p>
+    </div>
+    <div class="row m-2">
+        <div class="card bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col">
+            <div class="my-3 p-3" style="height: 100px;">
+                <h4 class="" style="color: #D49813;">L'enfant Peul</h4>
+                <p class="lead">Amadou Hampâté Bâ
+                </p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a href=""><img
+                    src="../assets/images/lenfantpeul.jpg" alt="" height="300px"></a></div>
+            
+        </div>
+        <div class=" card bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col">
+            <div class="my-3 p-3" style="height: 100px;">
+                <h4 class="h5" style="color: #D49813;">Quand on refuse on dit non</h4>
+                <p class="lead">Ahmadou Kouruma</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img
+                    src="../assets/images/onditnon.jpg" alt="" height="300px"></div>
+        </div>
+        <div class=" card bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col">
+            <div class="my-3 p-3" style="height: 100px;">
+                <h4 class="" style="color: #D49813;">Les pêcheurs</h4>
+                <p class="lead">Chigozie Obioma</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img
+                    src="../assets/images/lespecheurs.jpg" alt="" height="300px"></div>
+        </div>
+    </div>
+</div>
+<!-- end::bestseller -->
+
+<main class="container-fluid bg-light mt-5">
+    <!-- <app-book-list></app-book-list> -->
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-8">
+                
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0">
+                            Customize this section to tell your visitors a little bit about
+                            your publication, writers, content, or something else entirely.
+                            Totally up to you.
+                        </p>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-normal">Categories</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a>Roman</a></li>
+                            <li><a>Poésie</a></li>
+                            <li><a>Fâble</a></li>
+                            <li><a>Ballade</a></li>
+                            <li><a>Comédie</a></li>
+                            <li><a>Épopée</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

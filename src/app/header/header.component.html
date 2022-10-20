@@ -1,0 +1,33 @@
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom"
+  style="background-color: #fdd79ab6;">
+  <a class="navbar-brand" href="#">
+    <img src="../assets/images/logo.png" style="height: 45px" class="ms-5" />
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+    <li class="nav-item me-2">
+      <a class="nav-link px-2 link-dark btn" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        aria-current="page" routerLink="">Accueil</a>
+    </li>
+    <li class="nav-item me-2">
+      <a routerLink="librairie" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        class="nav-link px-2 link-dark btn">Boutique</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        class="nav-link px-2 link-dark btn" href="">A propos</a>
+    </li>
+    <li><a routerLink="contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+        class="nav-link px-2 link-dark btn">Contact</a></li>
+  </ul>
+
+  <div class="col-md-3 text-end">
+    <button type="button" class="btn btn-outline-dark me-2">
+      Se connecter
+    </button>
+    <button type="button" class="btn btn-dark">Créer un compte</button>
+  </div>
+</header>
