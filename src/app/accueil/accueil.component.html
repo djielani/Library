@@ -66,25 +66,24 @@
                 <p class="lead">Amadou Hampâté Bâ
                 </p>
             </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a href=""><img
-                    src="../assets/images/lenfantpeul.jpg" alt="" height="300px"></a></div>
-            
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a routerLink="librairie"><img src="../assets/images/lenfantpeul.jpg" alt="" height="300px"></a></div>
+
         </div>
         <div class=" card bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col">
             <div class="my-3 p-3" style="height: 100px;">
                 <h4 class="h5" style="color: #D49813;">Quand on refuse on dit non</h4>
                 <p class="lead">Ahmadou Kouruma</p>
             </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img
-                    src="../assets/images/onditnon.jpg" alt="" height="300px"></div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a routerLink="librairie"><img
+                    src="../assets/images/onditnon.jpg" alt="" height="300px"></a></div>
         </div>
         <div class=" card bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col">
             <div class="my-3 p-3" style="height: 100px;">
                 <h4 class="" style="color: #D49813;">Les pêcheurs</h4>
                 <p class="lead">Chigozie Obioma</p>
             </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img
-                    src="../assets/images/lespecheurs.jpg" alt="" height="300px"></div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a routerLink="librairie"><img
+                    src="../assets/images/lespecheurs.jpg" alt="" height="300px"></a></div>
         </div>
     </div>
 </div>
@@ -93,35 +92,22 @@
 <main class="container-fluid bg-light mt-5">
     <!-- <app-book-list></app-book-list> -->
     <div class="container">
-        <div class="row g-5">
-            <div class="col-md-8">
-                
-            </div>
-
-            <div class="col-md-4">
-                <div class="position-sticky" style="top: 2rem">
-                    <div class="p-4 mb-3 bg-light rounded">
-                        <h4 class="fst-italic">About</h4>
-                        <p class="mb-0">
-                            Customize this section to tell your visitors a little bit about
-                            your publication, writers, content, or something else entirely.
-                            Totally up to you.
-                        </p>
-                    </div>
-
-                    <div class="p-4">
-                        <h4 class="fst-normal">Categories</h4>
-                        <ol class="list-unstyled mb-0">
-                            <li><a>Roman</a></li>
-                            <li><a>Poésie</a></li>
-                            <li><a>Fâble</a></li>
-                            <li><a>Ballade</a></li>
-                            <li><a>Comédie</a></li>
-                            <li><a>Épopée</a></li>
-                        </ol>
+        <div class="p-5 mb-5 bg-light rounded-3">
+            <a routerLink="about" class=" text-decoration-none text-black">
+                <div class="container-fluid py-5">
+                    <div class="row">
+                        <div class="col-md-8 fs-4">
+                            <h1 class="display-5 fw-bold">Qu'est-ce E-Library ?</h1>
+                            E-Library a été créée en 2020 par Abdou Khadre Djielani Bodian avec l'envie de democratiser
+                            la vente de livre, dans un univers où Tout le monde n'a pas acces aux bibliotech ni au
+                            librairie classique.
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../assets/images/question.png" alt="" height="300" width="" class="mb-5 d-block">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 
